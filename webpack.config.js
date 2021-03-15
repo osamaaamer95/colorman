@@ -8,6 +8,7 @@ module.exports = {
     library: "colorman",
     libraryTarget: "umd",
     libraryExport: "default",
+    globalObject: 'this',
   },
   module: {
     rules: [

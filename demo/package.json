@@ -1,0 +1,20 @@
+{
+  "name": "colorman-demo",
+  "version": "1.0.0",
+  "description": "Used to test colorman",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Osama Aamer",
+    "email": "osama.aamer95@gmail.com",
+    "url": "https://osamaaamer.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "colorman": "^0.0.2"
+  }
+}
