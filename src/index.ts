@@ -5,7 +5,7 @@ function main() {
   const stringToCapitalize = "i will be capitalized";
   const capitalizedString = capitalize(stringToCapitalize);
   console.log({ capitalizedString });
-  console.log("I am done!");
+  console.log("I am done?");
 }
 
 export default main;
