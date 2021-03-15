@@ -3,7 +3,7 @@
  * @param {string} input String to capitalize
  * @returns Capitalized string
  */
-function capitalize(input) {
+function capitalize(input: string) {
   return input.substring(0, 1).toUpperCase() + input.substring(1);
 }
 

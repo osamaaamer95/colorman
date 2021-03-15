@@ -15,6 +15,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "colorman": "^0.0.2"
+    "colorman": "latest"
   }
 }
