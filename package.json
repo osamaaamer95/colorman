@@ -1,6 +1,6 @@
 {
   "name": "colorman",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple color manager",
   "main": "dist/bundle.js",
   "types": "types/index.d.ts",
