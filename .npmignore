@@ -3,3 +3,9 @@ src
 demo
 index.html
 webpack.config.js
+.github/**/*
+tests/**/*
+webpack**
+tsconfig.json
+.babelrc
+CODE_OF_CONDUCT.md

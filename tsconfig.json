@@ -5,7 +5,9 @@
     "skipLibCheck": true,
     "module": "es6",
     "target": "es5",
-    "allowJs": true
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "allowJs": false
   },
-  "exclude": ["tests", "dist", "node_modules"]
+  "exclude": ["tests", "demo", "dist", "node_modules"]
 }
