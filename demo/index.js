@@ -1,3 +1,4 @@
-const colorman = require("colorman");
+const { capitalize } = require("colorman");
 
-colorman();
+const targetString = capitalize("test");
+console.log(targetString);

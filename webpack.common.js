@@ -7,7 +7,6 @@ module.exports = {
     filename: "bundle.js",
     library: "colorman",
     libraryTarget: "umd",
-    libraryExport: "default",
     globalObject: "this",
   },
   module: {
