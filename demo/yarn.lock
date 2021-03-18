@@ -3339,10 +3339,8 @@ colorette@^1.2.1:
   resolved "https://registry.npmjs.org/colorette/-/colorette-1.2.1.tgz"
   integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
 
-colorman@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/colorman/-/colorman-0.0.8.tgz#6fa79a3b576a66d35faab0f9cc286d07f687f781"
-  integrity sha512-04+9gA3NlxtVSKJwFfAKJE1aTPO0jmLmnKl0+7RLgkhEQ9zfTROHSeNLKW5hVtK8jAXBljU1PW1JrYTWK7LAqQ==
+"colorman@file:../dist":
+  version "0.0.0"
 
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"

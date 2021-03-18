@@ -2,7 +2,7 @@
   "name": "colorman",
   "version": "0.0.8",
   "description": "A simple color manager",
-  "main": "dist/bundle.js",
+  "main": "dist/lib.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/osamaaamer95/colorman#readme",
   "devDependencies": {
     "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-typescript": "^7.13.0",
     "@types/chai": "^4.2.15",

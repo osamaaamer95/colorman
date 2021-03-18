@@ -3,11 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <title>Getting Started</title>
+    <body>
+      <div id="draw"></div>
+    </body>
   </head>
   <body>
-    <script src="bundle.js"></script>
+    <!-- Include library -->
+    <script src="lib.js"></script>
+    <!-- Custom script -->
     <script>
-      console.log(colorman.capitalize("test"));
+      // initialize first instance using facade object
+      const colormanInstance = Colorman({
+        myFirstId: "myFirstId",
+        mySecondId: "mySecondId",
+      });
+
+      // initialize second instance using facade object
+      const secondColormanInstance = Colorman({
+        myFirstId: "myFirstId_2",
+        mySecondId: "mySecondId_2",
+      });
+
+      // object methods
+      colormanInstance.hello();
+
+      console.log(colormanInstance.getConfig());
+      console.log(secondColormanInstance.getConfig());
+
+      secondColormanInstance.renderSomethingNice("draw");
+
+      // gives an error
+      try {
+        console.log(colormanInstance.somePrivateMethod());
+      } catch (error) {
+        console.log(error);
+      }
+
+      // similar to accessing static property on a class
+      console.log(Colorman.PublicConstants.PUBLIC_CONSTANT);
     </script>
   </body>
 </html>

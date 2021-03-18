@@ -4,8 +4,9 @@ module.exports = {
   entry: path.resolve(__dirname, "src/index.ts"),
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
-    library: "colorman",
+    filename: "lib.js",
+    library: "Colorman",
+    libraryExport: 'default',
     libraryTarget: "umd",
     globalObject: "this",
   },
