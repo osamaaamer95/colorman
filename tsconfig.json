@@ -9,5 +9,12 @@
     "declarationDir": "./dist/types",
     "allowJs": false
   },
-  "exclude": ["tests", "react", "angular", "dist", "node_modules"]
+  "exclude": [
+    "tests",
+    "react",
+    "angular",
+    "web-components",
+    "dist",
+    "node_modules"
+  ]
 }

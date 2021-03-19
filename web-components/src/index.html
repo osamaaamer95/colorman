@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/web-components.esm.js"></script>
+    <script nomodule src="/build/web-components.js"></script>
+  </head>
+  <body>
+    <colorman-parent app-id="123" bundle-id="456">
+      <!-- Only need to include this where we want the library to render output -->
+    </colorman-parent>
+
+    <!-- Second instance has its own closure, render multiple templates -->
+    <colorman-parent app-id="789" bundle-id="987">
+      <!-- Only need to include this where we want the library to render output -->
+    </colorman-parent>
+  </body>
+</html>

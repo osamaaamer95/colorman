@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.list colorman-listitem {
+  margin-bottom: 12px;
+}
+
+.list colorman-listitem:first-child {
+  margin-top: 12px;
+}
+
+.list colorman-listitem:last-child {
+  margin-bottom: 0px;
+}
