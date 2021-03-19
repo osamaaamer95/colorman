@@ -9,5 +9,5 @@
     "declarationDir": "./dist/types",
     "allowJs": false
   },
-  "exclude": ["tests", "demo", "dist", "node_modules"]
+  "exclude": ["tests", "react", "angular", "dist", "node_modules"]
 }

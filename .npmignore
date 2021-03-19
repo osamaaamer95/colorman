@@ -1,6 +1,8 @@
 node_modules
 src
-demo
+react
+angular
+components
 index.html
 webpack.config.js
 .github/**/*
